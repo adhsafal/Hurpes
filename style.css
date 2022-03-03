@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sacramento&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	position: absolute;
+	top: 13px;
+	left: 86px;
+}
+
+.logo img {
+	width: 103px;
+	height: 79px;
+}
+
+.top_section {
+	position: relative;
+}
+
+.email_Number_section {
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+	width: 939px;
+	height: 48px;
+	left: 291px;
+	top: 0px;
+
+	background: rgba(252, 244, 210, 0.5);
+}
+
+.email,
+.phn_number {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.email {
+	width: 148px;
+	height: 26px;
+	margin-left: 119px;
+}
+
+.emailText p {
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 26px;
+	letter-spacing: 0.44px;
+	color: #555a61;
+}
+
+.phn_number {
+	width: 125px;
+	height: 26px;
+	margin-left: 39px;
+}
+
+.phnIcon img {
+}
+
+.phoneText p {
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 26px;
+
+	letter-spacing: 0.44px;
+
+	color: #555a61;
+}
+
+.socialMedia {
+	position: absolute;
+	width: 95px;
+	height: 19px;
+	left: 1205px;
+	top: 13px;
+}
+
+.socialMedia ul {
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.navbar {
+	position: absolute;
+	width: 1147px;
+	height: 60px;
+	left: 221px;
+	top: 48px;
+
+	background: #ffe52c;
+}
+
+.navbar_innerSection {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.navbar_innerSection ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.navbar_innerSection ul li a {
+	font-family: "Inter";
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	color: #89877b;
+
+	text-decoration: none;
+}
+
+/* ----------------------------------
+-----------Banner Section---------
+---------------------------------- */
+
+.banner {
+	height: 100vh !important;
+	/* background: linear-gradient(
+		90deg,
+		#2b2e32 3.95%,
+		rgba(196, 196, 196, 0) 103.95%
+	); */
+}
+
+.slide_overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(
+		90deg,
+		#2b2e32 3.95%,
+		rgba(196, 196, 196, 0) 103.95%
+	);
+}
+
+.slide_texts {
+	margin-left: 150px;
+	max-width: 796px;
+	position: absolute;
+	top: 134px;
+}
+
+.first_slide h1,
+.second_slide h1 {
+	color: #ffb800;
+	font-size: 56px;
+	line-height: 86px;
+	font-weight: 700;
+	font-family: "Inter";
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.first_slide p,
+.second_slide p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 500;
+	font-family: "Inter";
+	max-width: 705px;
+	margin-bottom: 0;
+}
+
+.left_arrow {
+	color: #fff;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 5.08%;
+
+	font-size: 36px;
+}
+
+.right_arrow {
+	color: #fff;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	right: 5.08%;
+
+	font-size: 36px;
+}
+
+/* -----------human rights---------------- */
+
+.humanRights {
+	position: relative;
+	padding: 91px 0 107px;
+}
+
+.humanRights .container {
+	width: 100% !important;
+}
+
+.humanRights_topContent h3 {
+	font-family: "Inter";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7.94px;
+	margin-bottom: 6px;
+}
+
+.humanRights_topContent p {
+	font-family: "Utsaah";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	color: #d96704;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.humanRights_topContent p::after {
+	content: "";
+	width: 143px;
+	border: 2px solid #dfd8c5;
+	position: absolute;
+	top: 62px;
+	right: 43%;
+}
+
+/* -----------------Hurpes latest programs------------- */
+
+.hurpes_programs {
+	position: relative;
+	padding: 40px 0;
+}
+
+.hurpes_program_contents h3 {
+	color: #d96704;
+	font-family: "Inter";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	margin-bottom: 48px;
+}
+
+.program_slider .slide_One img {
+	width: 343px;
+	height: 237px;
+}
