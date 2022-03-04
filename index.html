@@ -24,7 +24,7 @@
 		></script>
 	</head>
 	<body>
-		<!-- <header>
+		<header>
 			<div class="logo">
 				<img src="/images/logo.png" alt="logo" />
 			</div>
@@ -50,10 +50,18 @@
 					</div>
 					<div class="socialMedia">
 						<ul>
-							<li><img src="/images/cooliconfacebook.png" alt="facebook" /></li>
-							<li><img src="/images/cooliconTwitter.svg" alt="twitter" /></li>
-							<li><img src="/images/cooliconlinkedin.svg" alt="linkedIn" /></li>
-							<li><img src="/images/cooliconYoutube.svg" alt="youTube" /></li>
+							<li>
+								<img src="/images/cooliconfacebook.png" alt="facebook" />
+							</li>
+							<li>
+								<img src="/images/cooliconTwitter.svg" alt="twitter" />
+							</li>
+							<li>
+								<img src="/images/cooliconlinkedin.svg" alt="linkedIn" />
+							</li>
+							<li>
+								<img src="/images/cooliconYoutube.svg" alt="youTube" />
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -63,16 +71,117 @@
 							<li><a href="#">Home</a></li>
 							<li><a href="#">Press release</a></li>
 							<li><a href="#">Campaigns</a></li>
-							<li><a href="#">Hurpes award</a></li>
-							<li><a href="#">Publications</a></li>
-							<li><a href="#">About us</a></li>
-							<li><a href="#">Organizational structure</a></li>
+							<li>
+								<a href="#" data-bs-toggle="dropdown" class="dropdown-toggle"
+									>Hurpes award</a
+								>
+								<ul class="dropdown_menu">
+									<li class="menu_pointer"></li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Literary award</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Social Service award</span>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" data-bs-toggle="dropdown" class="dropdown-toggle"
+									>Publications</a
+								>
+								<ul class="dropdown_menu">
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Hurpes Book</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Research report</span>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" data-bs-toggle="dropdown" class="dropdown-toggle"
+									>About us</a
+								>
+								<ul class="dropdown_menu">
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Gallery</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Objectives</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Founder member</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Transparency</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Hurpes policy</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Past committee</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Hurpes at glance</span>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" data-bs-toggle="dropdown" class="dropdown-toggle"
+									>Organizational structure</a
+								>
+								<ul class="dropdown_menu">
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Introduction</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Central executive committee</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>National coordinators</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>District committee members</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Hurpes life member</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Download membership form</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Download District committee form</span>
+									</li>
+									<li>
+										<i class="fa-solid fa-award-simple"></i>
+										<span>Download Youth membership form</span>
+									</li>
+								</ul>
+							</li>
 							<li><a href="#">Contact us</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		</header> -->
+		</header>
 		<section class="banner">
 			<div class="banner_slider">
 				<div>
@@ -104,15 +213,67 @@
 			</div>
 		</section>
 		<section class="humanRights">
-			<div class="container">
+			<div class="container-fluid humanRightsContainer">
 				<div class="humanRights_topContent">
 					<h3>human rights & peace society nepal</h3>
 					<p>मानव अधिकार तथा शान्ति समाज नेपाल</p>
 				</div>
+				<div class="chairperson">
+					<div class="row persons_firstRow d-flex justify-content-between">
+						<div class="col-md-4 humanRights_column position-relative">
+							<div class="persons pone">
+								<h3>Former chairperson</h3>
+								<img src="./images/person.png" alt="Persons" />
+							</div>
+							<div class="persons_name">
+								<span>Huma Kant Chaulagain</span>
+							</div>
+						</div>
+						<div class="col-md-4 humanRights_column position-relative">
+							<div class="persons ptwo">
+								<h3>Former chairperson</h3>
+								<img src="./images/person.png" alt="Persons" />
+							</div>
+							<div class="persons_name mainPerson">
+								<span>Huma Kant Chaulagain</span>
+							</div>
+							<div class="yellowBox"></div>
+						</div>
+						<div class="col-md-4 humanRights_column position-relative">
+							<div class="persons pthree">
+								<h3>Former chairperson</h3>
+								<img src="./images/person.png" alt="Persons" />
+							</div>
+							<div class="persons_name">
+								<span>Huma Kant Chaulagain</span>
+							</div>
+						</div>
+					</div>
+					<div class="row persons_secondRow d-flex justify-content-between">
+						<div class="col-md-4 humanRights_column position-relative">
+							<div class="persons pfour">
+								<h3>Former chairperson <br />CEC[2018-2021]</h3>
+								<img src="./images/person.png" alt="Persons" />
+							</div>
+							<div class="persons_name">
+								<span>Huma Kant Chaulagain</span>
+							</div>
+						</div>
+						<div class="col-md-4 humanRights_column position-relative">
+							<div class="persons pfive">
+								<h3>Former chairperson <br />CEC[2018-2021]</h3>
+								<img src="./images/person.png" alt="Persons" />
+							</div>
+							<div class="persons_name">
+								<span>Huma Kant Chaulagain</span>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section class="hurpes_programs">
-			<div class="container">
+			<div class="container hurpesProgramsContainer">
 				<div class="hurpes_program_contents">
 					<h3>Hurpes latest programs</h3>
 					<div class="program_slider">
@@ -131,7 +292,154 @@
 								<img src="/images/program.png" alt="" />
 							</div>
 						</div>
+						<div>
+							<div class="slide_One">
+								<img src="/images/program.png" alt="" />
+							</div>
+						</div>
+						<div>
+							<div class="slide_one">
+								<img src="/images/program.png" alt="" />
+							</div>
+						</div>
+						<div>
+							<div class="slide_one">
+								<img src="/images/program.png" alt="" />
+							</div>
+						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="events_glances">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="events_contents">
+							<h3>Upcoming Events</h3>
+							<ul>
+								<li>
+									<div class="date">
+										<p>TUE 2</p>
+									</div>
+									<div class="texts_and_publishedDate">
+										<p>
+											The UN General Assemblt had passed the motion in 1981 to
+											mark the international Day ....see more ->
+										</p>
+										<span>Baisakh, 2021</span>
+									</div>
+								</li>
+								<li>
+									<div class="date">
+										<p>TUE 2</p>
+									</div>
+									<div class="texts_and_publishedDate">
+										<p>
+											The UN General Assemblt had passed the motion in 1981 to
+											mark the international Day ....see more ->
+										</p>
+										<span>Baisakh, 2021</span>
+									</div>
+								</li>
+								<li>
+									<div class="date">
+										<p>TUE 2</p>
+									</div>
+									<div class="texts_and_publishedDate">
+										<p>
+											The UN General Assemblt had passed the motion in 1981 to
+											mark the international Day ....see more ->
+										</p>
+										<span>Baisakh, 2021</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="glances_contents">
+							<h3>Hurpes Glances</h3>
+							<div class="glances_texts">
+								<p>
+									HURPES is a membership based volunteer organization conducting
+									research and campaigns. Peace Society is a non-governmental,
+									non-political and non-profit independent volunteer
+									organization with a focus on non-violence, peace, human rights
+									& democracy. HURPES was founded on 1st June 1996 by Krishna
+									Pahadi.
+								</p>
+							</div>
+							<div class="outer_yellowSquare"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="quickContact">
+							<h5>Quick Contact</h5>
+							<ul>
+								<li>
+									<img src="./images/cooliconlocation.png" alt="" />
+									<span>Keshari Marga-76, Kalikasthan, Nepal</span>
+								</li>
+								<li>
+									<img src="./images/Vector.svg" alt="Call" />
+									<span>977-1-4420712</span>
+								</li>
+								<li>
+									<img src="./images/coolicon.svg" alt="Message" />
+									<span>chair.hurpes@gmail.com</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="latestPrograms">
+							<h5>Latest Programs</h5>
+							<ul>
+								<li>
+									<span>
+										प्रधानन्यायाधीशको राजिनामा/बर्हिगमनको माग गर्दै शान्ति
+										समाजको जुलुस…
+									</span>
+								</li>
+								<li>
+									<span>शान्ति समाजद्वारा १६ स्रष्टाहरुलाई पुरस्कार अर्पण</span>
+								</li>
+								<li>
+									<span>प्रधानन्यायाधीश राणाले शिघ्र राजिनामा दिनुपर्छ</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="footer_socialMedia">
+							<ul>
+								<li>
+									<img src="./images/cooliconfacebook.png" alt="facebook" />
+								</li>
+								<li>
+									<img src="./images/cooliconlinkedin.svg" alt="linkedIn" />
+								</li>
+								<li>
+									<img src="./images/cooliconInstagram.png" alt="instagram" />
+								</li>
+								<li>
+									<img src="./images/cooliconTwitter.svg" alt="Twitter" />
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="lowerFooter">
+					<span>Copyright © 2017 HURPEES. All Rights Reserved. </span>
 				</div>
 			</div>
 		</section>

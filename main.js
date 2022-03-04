@@ -20,6 +20,6 @@ $('.program_slider').slick({
     autoplay: true,
     // autoplaySpeed: 400,
     arrows: true,
-    prevArrow: '<i class="fa-solid fa-angle-left left_arrow"></i>',
-    nextArrow: '<i class = "fa-solid fa-angle-right right_arrow"></i>',
+    prevArrow: '<i class="fa-solid fa-angle-left prev_arrow"></i>',
+    nextArrow: '<i class = "fa-solid fa-angle-right next_arrow"></i>',
 });
