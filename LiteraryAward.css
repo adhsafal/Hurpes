@@ -1,0 +1,110 @@
+.campaignBanner h1 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 59px;
+
+	letter-spacing: 0.04em;
+	color: #ffffff;
+}
+
+.Awards {
+	padding: 68px 0 48px;
+}
+
+.awardTopContent {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+}
+
+.awardTopContent h3 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+
+	letter-spacing: 10.44px;
+	text-transform: uppercase;
+
+	color: #000000;
+	margin-bottom: 22px;
+}
+
+.awardTopContent p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	/* max-width: 486px; */
+	text-align: center;
+
+	letter-spacing: 0.44px;
+
+	color: rgba(69, 65, 65, 0.7);
+
+	padding: 0 300px;
+	margin-bottom: 52px;
+}
+
+.awardTopContent p::after {
+	content: "";
+	width: 143px;
+	border: 2px solid #dfd8c5;
+	position: absolute;
+	top: 115px;
+	right: 43%;
+}
+
+.awardRows {
+	display: flex;
+	margin-bottom: 76px;
+}
+
+.awardMainContents {
+	padding-top: 76px;
+}
+
+.awardDetails h5 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 159%;
+
+	color: #000000;
+	margin-bottom: 23px;
+}
+
+.awardDetails p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	letter-spacing: 0.44px;
+
+	color: rgba(0, 0, 0, 0.8);
+
+	padding-right: 100px;
+}
+
+.imgAndyellow {
+	position: relative;
+}
+
+.imgAndyellow img.yellowSquare {
+	position: absolute;
+	z-index: -1;
+	left: -13px;
+	bottom: -13px;
+}
+
+.awardDetails {
+	margin-top: 29px;
+}

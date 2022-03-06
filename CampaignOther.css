@@ -1,0 +1,134 @@
+.campaigns {
+	padding: 16px 0 90px;
+}
+
+.campaignotherContainer {
+	padding: 0 43px !important;
+}
+
+.CampaigntopContent h5 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 167.5%;
+
+	text-transform: capitalize;
+
+	color: #d96704;
+
+	margin-bottom: 48px;
+}
+
+.CampaigntopContent h3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 170.5%;
+
+	color: #000000;
+	margin-bottom: 64px;
+}
+
+.CampaigntopContent p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 168%;
+	/* or 30px */
+
+	color: #000000;
+}
+
+.CampaigntopContent {
+	padding-bottom: 89px;
+}
+
+.campaignImageContent {
+	padding-bottom: 90px;
+}
+
+.campaignImageContent h3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+
+	text-transform: uppercase;
+
+	color: #000000;
+	margin-bottom: 34px;
+}
+
+.rowOne {
+	margin-bottom: 34px;
+}
+
+.campaignBottomContent {
+	padding: 37px 0 123px;
+	background: #faf6ed;
+}
+
+.campaignBottomContent h4 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 33px;
+
+	text-transform: uppercase;
+
+	color: #000000;
+	margin-bottom: 59px;
+}
+
+.forward_arrow {
+	color: #000;
+	position: absolute;
+	z-index: 1;
+	top: 45%;
+	left: -5%;
+
+	font-size: 36px;
+}
+
+.backward_arrow {
+	color: #000;
+	position: absolute;
+	z-index: 1;
+	top: 45%;
+	right: -5%;
+	font-size: 36px;
+}
+
+.campaign_slider ul.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+	list-style-type: none;
+	margin-top: 60px;
+	padding: 0;
+}
+
+.campaign_slider ul.slick-dots li {
+	margin: 0 0.25rem;
+}
+
+.campaign_slider ul.slick-dots li button {
+	display: block;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	padding: 0;
+	border: none;
+	/* background: #eae4cb; */
+	text-indent: -9999px;
+}
+
+li.slick-active button {
+	background: #d96704;
+}

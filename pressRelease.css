@@ -1,0 +1,39 @@
+.pressContent {
+	padding: 84px 0 111px;
+}
+
+.pressTexts {
+	padding: 0 75px !important;
+}
+
+.pressTexts h3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 162.5%;
+
+	color: #d96704;
+	margin-bottom: 23px;
+}
+
+span.newsReporter {
+	font-family: "Inter";
+	font-style: italic;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 168%;
+	color: #000000;
+}
+
+.pressTexts p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 203.5%;
+
+	color: #000000;
+	margin-top: 40px;
+	margin-bottom: 0;
+}

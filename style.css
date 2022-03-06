@@ -204,11 +204,11 @@ ul.dropdown_menu li span {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: linear-gradient(
-		90deg,
-		#2b2e32 3.95%,
-		rgba(196, 196, 196, 0) 103.95%
-	);
+}
+
+img.mainGradient {
+	position: absolute;
+	top: 0;
 }
 
 .slide_texts {
@@ -462,8 +462,9 @@ ul.dropdown_menu li span {
 	display: flex;
 	justify-content: center;
 	margin: 0;
-	padding: 1rem 0;
+	padding: 0;
 	list-style-type: none;
+	margin-top: 60px;
 }
 
 .program_slider ul.slick-dots li {
