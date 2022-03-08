@@ -1,0 +1,103 @@
+.bannerLabel {
+	top: 89%;
+}
+
+.contactUs {
+	padding: 112px 0 90px;
+}
+
+.contactContainer {
+	padding: 0 150px !important;
+}
+
+.contactCol {
+	padding: 0 50px !important;
+}
+
+.contactcolTwo {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactForm h3,
+.locationContents h3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom: 50px;
+}
+
+.contactForm p {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+
+	margin-bottom: 8px;
+
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.contactForm input {
+	width: 100%;
+	height: 52px;
+	margin-bottom: 23px;
+	background-color: #f7f7fa;
+	border-radius: 3px;
+	border: none;
+}
+
+#pass {
+	height: 101px;
+	margin-bottom: 27px;
+}
+
+.contactForm button {
+	border: none;
+	outline: none;
+	border-radius: 3px;
+
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height, or 114% */
+
+	padding: 18px 77px 18px 16px;
+
+	color: #ffffff;
+	background-color: black;
+}
+
+.locationContents ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.locationContents ul li span {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+
+	color: #000000;
+}
+
+.locationContents ul li {
+	margin-bottom: 23px;
+}
+.locationContents ul li img {
+	margin-right: 17px;
+}
+
+#lastIcon {
+	margin-bottom: 36px;
+}
+
+#map {
+}

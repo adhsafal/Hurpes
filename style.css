@@ -166,9 +166,12 @@ ul.dropdown_menu {
 	width: 260px;
 	border-radius: 3px;
 
-	/* position: relative; */
-
 	display: none;
+	top: -10px;
+}
+
+li a.dropdown-toggle:hover ul.dropdown_menu {
+	display: block;
 }
 
 ul.dropdown_menu li {

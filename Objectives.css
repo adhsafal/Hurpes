@@ -1,0 +1,113 @@
+.bannerObjective p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 70px;
+
+	text-transform: uppercase;
+
+	color: #000000;
+	margin-bottom: 0;
+
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+}
+
+.objective {
+	padding: 67px 0 56px;
+	position: relative;
+}
+
+.objectiveContainer {
+	padding: 0 150px !important;
+}
+
+.objectiveTop h2 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+
+	text-align: center;
+	letter-spacing: 10.44px;
+	text-transform: uppercase;
+
+	color: #000000;
+	margin-bottom: 22px;
+}
+
+.objectiveTop p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+
+	text-align: center;
+	letter-spacing: 0.44px;
+
+	color: rgba(69, 65, 65, 0.7);
+
+	padding: 0 290px 36px;
+	margin-bottom: 0;
+}
+
+.objectiveTop p::after {
+	content: "";
+	width: 143px;
+	border: 2px solid #dfd8c5;
+	position: absolute;
+	top: 230px;
+	right: 44%;
+}
+
+.objectiveMain {
+	padding: 107px 0 80px;
+}
+
+.objRow,
+.objRowTwo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.objRow {
+	margin-bottom: 136px;
+}
+
+.objects {
+	text-align: center;
+	max-width: 312px !important;
+	padding: 0 !important;
+	padding: 35px 28px 52px !important;
+	position: relative;
+	background: #f9f6f4;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+img.obj_icon {
+	margin-bottom: 30px;
+}
+
+img.yellowRectangle {
+	position: absolute;
+	left: -15px;
+	bottom: -16px;
+	z-index: -1;
+}
+
+.objectiveContents p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 144.5%;
+
+	text-align: center;
+
+	color: #1d1a12;
+	margin-bottom: 0;
+}

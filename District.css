@@ -1,0 +1,22 @@
+.district {
+	padding: 76px 0 136px;
+}
+
+.districtContainer {
+	padding: 0 150px !important;
+}
+
+.districtContents h4 {
+	font-family: "Utsaah";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 46px;
+
+	color: #1d1a12;
+	margin-bottom: 45px;
+}
+
+.districtContents ul li {
+	margin-bottom: 15px;
+}

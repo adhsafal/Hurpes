@@ -1,0 +1,134 @@
+.campaignBanner {
+	position: relative;
+}
+.committeeGradient {
+	position: absolute;
+	bottom: 0;
+}
+
+.founding {
+	padding: 74px 0;
+}
+
+.foundingContainer {
+	padding: 0 !important;
+}
+
+.foundingTop {
+	text-align: center;
+}
+
+.foundingTop h2 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 26px;
+
+	text-align: center;
+	letter-spacing: 0.44px;
+
+	color: #1d1a12;
+	margin: 28px 0 8px;
+}
+
+.foundingTop p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+
+	text-align: center;
+	letter-spacing: 0.44px;
+
+	color: rgba(29, 26, 18, 0.8);
+	margin-bottom: 88px;
+	padding: 0 491px;
+}
+
+h2.designation {
+	font-family: "Inter";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+
+	text-transform: uppercase;
+
+	color: #d96704;
+	margin-bottom: 36px;
+}
+
+.founderImage {
+	position: relative;
+}
+
+.founderImage .aone {
+	position: relative;
+	z-index: 2;
+}
+
+.founderYellow {
+	position: absolute;
+	left: -19px;
+	bottom: -19px;
+	z-index: 1;
+}
+
+.aboutFounder h3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+
+	letter-spacing: 0.44px;
+
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.aboutFounder p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	letter-spacing: 0.44px;
+
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 43px;
+}
+
+.founderMedia ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.founderMedia ul li {
+	margin-right: 10px;
+}
+
+.founders {
+	padding: 43px 300px 81px 168px !important;
+	background: #f0f6f2;
+}
+
+.foundersTwo {
+	padding: 43px 168px 81px 300px !important;
+	text-align: right;
+}
+
+.foundersTwo .founderMedia ul {
+	justify-content: flex-end;
+}
+
+.secondYellow {
+	position: absolute;
+	right: -19px !important;
+	bottom: -19px !important;
+}

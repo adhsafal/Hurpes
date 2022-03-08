@@ -1,0 +1,56 @@
+.campaignWrapper {
+	position: relative;
+}
+
+.bannerLabel p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 26px;
+
+	text-align: center;
+	letter-spacing: 0.44px;
+	text-transform: uppercase;
+
+	color: #ffffff;
+	margin: 0;
+}
+.bannerLabel {
+	background: #d96704;
+	padding: 21px 68px;
+	position: absolute;
+	left: 37.5%;
+	top: 86%;
+}
+
+.bookrowOne {
+	margin-bottom: 88px;
+}
+
+.bookContainer {
+	padding: 0 150px !important;
+}
+
+.bookcol {
+	text-align: center;
+}
+
+.Books {
+	padding-top: 164px;
+	padding-bottom: 135px;
+}
+
+p.author {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 16px;
+
+	letter-spacing: 0.9px;
+
+	color: #d96704;
+	margin-top: 4px;
+	margin-bottom: 0;
+}

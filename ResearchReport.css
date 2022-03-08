@@ -1,0 +1,67 @@
+.researches {
+	padding: 138px 0 50px;
+}
+
+.researchContainer {
+	padding: 0 250px 0 150px !important;
+}
+
+.aboutResearches h3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 116.49%;
+
+	color: #000000;
+
+	margin-bottom: 8px;
+}
+
+span.researchAuthor {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 116.49%;
+
+	color: #000000;
+}
+
+p.researchDetails {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 138.99%;
+
+	color: #000000;
+	margin-top: 26px;
+	margin-bottom: 45px;
+}
+
+span.newsPortals {
+	font-family: "Aparajita";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 0px;
+
+	color: #000000;
+	padding: 10px 16px;
+	background: #f0f6f2;
+	margin-left: 20px;
+}
+
+.report {
+	padding-bottom: 45px;
+	border-bottom: 3px solid #fdfbf6;
+}
+
+.reports {
+	padding-top: 61px;
+}
+
+div.seeAll {
+	margin-top: 33px;
+}

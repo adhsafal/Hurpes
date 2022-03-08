@@ -1,0 +1,51 @@
+.glance {
+	padding-top: 72px;
+}
+
+.glanceContainer {
+	padding: 0 150px !important;
+}
+
+.hurpesAtGlance {
+	position: relative;
+	width: fit-content;
+	margin-bottom: 68px;
+}
+
+.hurpesAtGlance p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	text-transform: capitalize;
+
+	letter-spacing: 0.44px;
+
+	color: #4c4a4a;
+	padding: 23px 65px;
+	background: #f9f6f4;
+}
+
+.hurpesAtGlance img {
+	position: absolute;
+	z-index: -1;
+	left: -9px;
+	bottom: -9px;
+}
+
+.glancetexts p {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 43px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.glancetexts {
+	margin-bottom: 50px;
+}

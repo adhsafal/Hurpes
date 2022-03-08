@@ -1,0 +1,36 @@
+.galleryGradient {
+	position: absolute;
+	left: 0;
+}
+
+.bannerGallery p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 108px;
+
+	text-transform: uppercase;
+
+	color: #d96704;
+	margin-bottom: 0;
+
+	position: absolute;
+	bottom: 0;
+	left: 41%;
+	top: 50%;
+}
+
+.committee h3 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+
+	text-transform: uppercase;
+
+	color: #000000;
+
+	margin-bottom: 46px;
+}

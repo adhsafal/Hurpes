@@ -1,0 +1,37 @@
+.committeeGradient {
+	position: absolute;
+	bottom: 0;
+}
+.bannerName p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 34px;
+
+	letter-spacing: 1px;
+
+	color: #ffffff !important;
+	margin-bottom: 0;
+	position: absolute;
+	z-index: 2;
+	top: 84%;
+	left: 150px;
+}
+
+.committee {
+	padding: 72px 0 36px;
+}
+
+.committeeContainer {
+	padding: 0 150px !important;
+}
+
+.pastOne {
+	margin-bottom: 52px;
+}
+
+.past {
+	/* width: fit-content !important; */
+	/* padding: 0 !important; */
+}
