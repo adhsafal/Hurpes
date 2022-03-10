@@ -41,7 +41,7 @@ $('.events_slider').slick({
     // dots: true,
     autoplay: true,
     vertical: true,
-    autoplaySpeed: 400,
+    // autoplaySpeed: 400,
     arrows: true,
     prevArrow: '<i class="fa-solid fa-angle-left up_arrow"></i>',
     nextArrow: '<i class = "fa-solid fa-angle-right down_arrow"></i>',
