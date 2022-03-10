@@ -11,20 +11,19 @@
 
 header {
 	display: flex;
-	overflow: hidden;
 }
 
 .logo {
 	padding-top: 13px;
 	padding-left: 86px;
-	/* padding-right: 32px; */
 }
 .logo img {
 	height: 79px;
 }
 
 .top_section {
-	flex-grow: 1;
+	/* flex-grow: 1; */
+	flex: 1;
 }
 
 .email_socialMedia {
@@ -116,7 +115,6 @@ header {
 	height: 60px;
 	margin-left: 32px;
 	background: #ffe52c;
-	width: 100%;
 	padding: 0;
 }
 
@@ -159,40 +157,78 @@ header {
 
 /* ---------------------------- */
 
-ul.dropdown_menu {
+/* -------------------------------- */
+
+.dropdown-menu {
 	display: flex;
 	flex-direction: column;
-	position: absolute;
 	width: 260px;
 	border-radius: 3px;
 
-	/* display: none; */
-	top: -10px;
+	padding: 0 !important;
+	margin: 0 !important;
+
+	position: absolute;
+	top: 140% !important;
 }
 
-li a.dropdown-toggle:hover ul.dropdown_menu {
-	display: block;
+.dropdown {
+	position: relative;
 }
 
-ul.dropdown_menu li {
-	/* background-color: #383838; */
-	color: #fff;
-	padding: 13px 0 17px;
+.dropdown-menu {
+}
+
+.dropdown-menu.award {
+	left: -120px !important;
+}
+
+.dropdown-menu.publications {
+	left: -133px !important;
+}
+.dropdown-menu.about {
+	left: -152px !important;
+}
+
+.dropdown-menu.structure {
+	left: -53px !important;
+}
+
+.dropdown-menu a {
+	color: #fff !important;
+	padding: 17px 0 15px 23px;
 
 	background: linear-gradient(180deg, #4f5254 0%, #393b3a 97.3%);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
 		inset 0px 1px 0px rgba(255, 255, 255, 0.3);
 }
 
-ul.dropdown_menu li span {
+.dropdown-menu a {
 	font-family: "Roboto";
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 19px;
 }
 
-.ul.dropdown_menu li i {
+.dropdown-menu a i {
 	margin-right: 27px;
+	color: #a1a1a1;
+}
+
+.menuPointer {
+	width: 25px;
+	height: 25px;
+	background: linear-gradient(180deg, #4f5254 0%, #393b3a 97.3%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+		inset 1px 1px 0px rgba(255, 255, 255, 0.3);
+	border-radius: 3px;
+
+	position: absolute;
+	right: 21px;
+	z-index: -1;
+	top: -10px;
+
+	transform: rotate(45deg);
 }
 
 /* ----------------------------------
@@ -580,28 +616,11 @@ p.hoverDetails {
 	margin-bottom: 30px;
 }
 
-.slideButtons {
-	padding: 10px 12px;
-	background: #fbfbfb;
-	width: fit-content;
-	position: absolute;
-	right: 20px;
-	top: 30px;
-}
-
-.slideButtons button {
-	border: none;
-	outline: none;
-	margin: 0;
-	background-color: #fbfbfb;
-}
-
-.events_contents ul {
-	list-style-type: none;
+.events_contents .slideEvents {
 	padding: 0;
 }
 
-.events_contents ul li {
+.eventsSlides {
 	display: flex;
 	background-color: #f0f6f2;
 	transition: 0.5s all ease;
@@ -613,7 +632,7 @@ p.hoverDetails {
 	margin-bottom: 20px;
 }
 
-.events_contents ul li .date p {
+.events_contents .slideEvents .eventsSlides .date p {
 	font-family: "Inter";
 	font-size: 15px;
 	line-height: 24px;
@@ -623,7 +642,7 @@ p.hoverDetails {
 	margin-right: 40px;
 }
 
-.events_contents ul li .texts_and_publishedDate p {
+.events_contents .slideEvents .eventsSlides .texts_and_publishedDate p {
 	font-family: "Inter";
 	font-weight: 500;
 	font-size: 15px;
@@ -632,7 +651,7 @@ p.hoverDetails {
 	margin-bottom: 7px;
 }
 
-.events_contents ul li .texts_and_publishedDate span {
+.events_contents .slideEvents .eventsSlides .texts_and_publishedDate span {
 	font-family: "Inter";
 	font-weight: 500;
 	font-size: 13px;
@@ -640,14 +659,35 @@ p.hoverDetails {
 	color: #d96704;
 }
 
-.events_contents ul li:hover {
+.events_contents .slideEvents .eventsSlides:hover {
 	background-color: #383838;
 	transition: 0.5s all ease;
 }
 
-.events_contents ul li:hover .date p,
-.events_contents ul li:hover .texts_and_publishedDate p {
+.events_contents .slideEvents .eventsSlides:hover .date p,
+.events_contents .slideEvents .eventsSlides:hover .texts_and_publishedDate p {
 	color: white;
+}
+
+.up_arrow {
+	color: #000;
+	position: absolute;
+	z-index: 1;
+	top: -30px;
+	right: 60px;
+
+	font-size: 20px;
+	background: #fbfbfb;
+}
+
+.down_arrow {
+	color: #000;
+	position: absolute;
+	z-index: 1;
+	top: -30px;
+	right: 40px;
+	font-size: 20px;
+	background: #fbfbfb;
 }
 
 .glances_contents .glances_texts {
@@ -722,8 +762,9 @@ p.hoverDetails {
 	padding: 5px 0;
 }
 
-.quickContact ul li img {
+.quickContact ul li i {
 	margin-right: 19px;
+	color: #fff;
 }
 
 .quickContact ul li span {
@@ -747,6 +788,10 @@ p.hoverDetails {
 
 .footer_socialMedia ul li {
 	margin-bottom: 15px;
+}
+
+.footer_socialMedia ul li i {
+	color: #fff;
 }
 
 .lowerFooter {

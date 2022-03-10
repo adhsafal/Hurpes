@@ -32,3 +32,20 @@ $('.campaign_slider').slick({
     prevArrow: '<i class="fa-solid fa-angle-left forward_arrow"></i>',
     nextArrow: '<i class = "fa-solid fa-angle-right backward_arrow"></i>',
 });
+
+
+$('.events_slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    // dots: true,
+    autoplay: true,
+    vertical: true,
+    autoplaySpeed: 400,
+    arrows: true,
+    prevArrow: '<i class="fa-solid fa-angle-left up_arrow"></i>',
+    nextArrow: '<i class = "fa-solid fa-angle-right down_arrow"></i>',
+});
+
+
+
