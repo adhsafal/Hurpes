@@ -19,6 +19,27 @@ $('.program_slider').slick({
     arrows: true,
     prevArrow: '<i class="fa-solid fa-angle-left prev_arrow"></i>',
     nextArrow: '<i class = "fa-solid fa-angle-right next_arrow"></i>',
+
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: false
+            }
+        },
+
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false
+            }
+        },
+
+    ]
 });
 
 $('.campaign_slider').slick({

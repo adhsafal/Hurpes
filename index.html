@@ -8,7 +8,14 @@
 
 		<link rel="stylesheet" href="/style.css" />
 
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
 
 		<link
 			rel="stylesheet"
@@ -29,6 +36,214 @@
 		<header>
 			<div class="logo">
 				<img src="/images/logo.png" alt="logo" />
+			</div>
+			<div class="canvas">
+				<div class="responsive_navbar_icon">
+					<a
+						class="btn"
+						data-bs-toggle="offcanvas"
+						href="#offcanvasExample"
+						role="button"
+						aria-controls="offcanvasExample"
+					>
+						<i class="fa-solid fa-bars"></i>
+					</a>
+				</div>
+				<div
+					class="offcanvas offcanvas-start"
+					tabindex="-1"
+					id="offcanvasExample"
+					aria-labelledby="offcanvasExampleLabel"
+				>
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+						<button
+							type="button"
+							class="btn-close text-reset"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body">
+						<div class="dropdown mt-3">
+							<div class="navbar_innerSection">
+								<ul>
+									<li><a href="/index.html">Home</a></li>
+									<li><a href="/News.html">Press release</a></li>
+									<li><a href="/Campaign.html">Campaigns</a></li>
+									<li class="dropdown">
+										<a
+											href="/LiteraryAward.html"
+											data-bs-toggle="dropdown"
+											class="dropdown-toggle"
+											>Hurpes award
+										</a>
+										<div class="dropdown-menu award">
+											<div class="menuPointer"></div>
+											<a href="/LiteraryAward.html" class="dropdown-item"
+												><i class="fa-solid fa-award"></i>
+												Literary award
+											</a>
+
+											<a href="/ServiceAwards.html" class="dropdown-item">
+												<i class="fa-solid fa-award"></i>
+												Social Service award
+											</a>
+										</div>
+									</li>
+									<li class="dropdown">
+										<a
+											href="#"
+											data-bs-toggle="dropdown"
+											class="dropdown-toggle"
+											>Publications</a
+										>
+										<div class="dropdown-menu publications">
+											<div class="menuPointer"></div>
+
+											<a href="/HurpesBook.html" class="dropdown-item">
+												<i class="fa-solid fa-book"></i>
+												Hurpes Book
+											</a>
+
+											<a href="/ResearchReport.html" class="dropdown-item">
+												<i class="fa-solid fa-file"></i>
+												Research Report
+											</a>
+										</div>
+									</li>
+									<li class="dropdown">
+										<a
+											href="#"
+											data-bs-toggle="dropdown"
+											class="dropdown-toggle"
+											>About us
+										</a>
+										<div class="dropdown-menu about">
+											<div class="menuPointer"></div>
+
+											<a href="/Gallery.html" class="dropdown-item">
+												<i class="fa-solid fa-image"></i> Gallery
+											</a>
+
+											<a href="/Objectives.html" class="dropdown-item">
+												<i class="fa-solid fa-heart"></i> Objectives
+											</a>
+
+											<a href="/FoundingMembers.html" class="dropdown-item">
+												<i class="fa-solid fa-user"></i> Founder Member
+											</a>
+
+											<a href="/Transparency.html" class="dropdown-item">
+												<i class="fa-solid fa-eye"></i> Transparency
+											</a>
+
+											<a href="/Policy.html" class="dropdown-item">
+												<i class="fa-regular fa-file-lines"></i> Hurpes Policy
+											</a>
+
+											<a href="/PastCommittee.html" class="dropdown-item">
+												<i class="fa-solid fa-user"></i>
+												Past Committee
+											</a>
+
+											<a href="/HurpesGlance.html" class="dropdown-item">
+												<i class="fa-solid fa-briefcase"></i> Hurpes at Glance
+											</a>
+										</div>
+									</li>
+									<li class="dropdown">
+										<a
+											href="#"
+											data-bs-toggle="dropdown"
+											class="dropdown-toggle"
+											>Organizational structure</a
+										>
+										<div class="dropdown-menu structure">
+											<div class="menuPointer"></div>
+
+											<a href="/Introduction.html" class="dropdown-item">
+												<i class="fa-solid fa-user-plus"></i>Introduction
+											</a>
+
+											<a
+												href="/CentralExecutiveCommittee.html"
+												class="dropdown-item d-flex align-items-center"
+											>
+												<i class="fa-solid fa-user"></i>
+												Central Executive <br />Committee
+											</a>
+
+											<a href="/Coordinators.html" class="dropdown-item">
+												<i class="fa-solid fa-user"></i>
+												National Coordinators
+											</a>
+
+											<a
+												href="/District.html"
+												class="dropdown-item d-flex align-items-center"
+											>
+												<i class="fa-solid fa-user"></i>
+												District Committee <br />Members
+											</a>
+
+											<a href="/LifeMembers.html" class="dropdown-item">
+												<i class="fa-solid fa-user"></i>
+												Hurpes Life Members
+											</a>
+
+											<a
+												href="#"
+												class="dropdown-item d-flex align-items-center"
+											>
+												<i class="fa-solid fa-download"></i> Download
+												<br />Membership Form
+											</a>
+
+											<a
+												href="#"
+												class="dropdown-item d-flex align-items-center"
+											>
+												<i class="fa-solid fa-download"></i> Download District
+												<br />Committee Form
+											</a>
+
+											<a
+												href="#"
+												class="dropdown-item d-flex align-items-center"
+											>
+												<i class="fa-solid fa-download"></i>
+												<div>Download Youth <br />Membership Form</div>
+											</a>
+										</div>
+									</li>
+									<li><a href="/Contact.html">Contact us</a></li>
+								</ul>
+							</div>
+
+							<div class="canvas_lowerContent">
+								<a class="emailid" href="#">needhelp@hurpes.com</a>
+								<a class="numb" href="#">888 999 0000</a>
+								<div class="canvas_socialMedia">
+									<ul>
+										<li>
+											<i class="fab fa-twitter"></i>
+										</li>
+										<li>
+											<i class="fab fa-facebook"></i>
+										</li>
+										<li>
+											<i class="fab fa-pinterest"></i>
+										</li>
+										<li>
+											<i class="fab fa-youtube"></i>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="top_section">
 				<div class="email_socialMedia">
@@ -126,7 +341,7 @@
 										<i class="fa-solid fa-heart"></i> Objectives
 									</a>
 
-									<a href="/Objectives.html" class="dropdown-item">
+									<a href="/FoundingMembers.html" class="dropdown-item">
 										<i class="fa-solid fa-user"></i> Founder Member
 									</a>
 
@@ -255,63 +470,67 @@
 		<!-- ----------Human Rights---------- -->
 
 		<section class="humanRights">
-			<div class="container-fluid humanRightsContainer">
+			<div class="container">
 				<div class="humanRights_topContent">
 					<h3>human rights & peace society nepal</h3>
 					<p>मानव अधिकार तथा शान्ति समाज नेपाल</p>
 				</div>
 				<div class="chairperson">
-					<div class="row persons_firstRow d-flex justify-content-between">
-						<div class="col-md-4 humanRights_column position-relative">
-							<div class="persons pone">
-								<h3>Former chairperson</h3>
-								<img src="./images/person.png" alt="Persons" />
-							</div>
-							<div class="persons_name">
-								<span>Huma Kant Chaulagain</span>
-							</div>
-						</div>
-						<div class="col-md-4 humanRights_column position-relative">
-							<div class="persons ptwo">
-								<h3>Former chairperson</h3>
-								<img src="./images/person.png" alt="Persons" />
-							</div>
-							<div class="persons_name mainPerson">
-								<span>Huma Kant Chaulagain</span>
-							</div>
-							<div class="yellowBox"></div>
-						</div>
-						<div class="col-md-4 humanRights_column position-relative">
-							<div class="persons pthree">
-								<h3>Former chairperson</h3>
-								<img src="./images/person.png" alt="Persons" />
-							</div>
-							<div class="persons_name">
-								<span>Huma Kant Chaulagain</span>
+					<div class="row persons_firstRow">
+						<div class="col-md-4 col-12">
+							<div class="humanRights_column">
+								<div class="persons">
+									<h3>Former chairperson</h3>
+									<img src="./images/person.png" alt="Persons" />
+								</div>
+								<div class="persons_name">
+									<span>Huma Kant Chaulagain</span>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row persons_secondRow d-flex">
-						<div
-							class="col-md-4 offset-md-2 humanRights_column position-relative"
-						>
-							<div class="persons pfour">
-								<h3>Former chairperson <br />CEC[2018-2021]</h3>
-								<img src="./images/person.png" alt="Persons" />
-							</div>
-							<div class="persons_name">
-								<span>Huma Kant Chaulagain</span>
+						<div class="col-md-4 col-12">
+							<div class="humanRights_column">
+								<div class="persons ptwo">
+									<h3>Former chairperson</h3>
+									<img src="./images/person.png" alt="Persons" />
+								</div>
+								<div class="persons_name mainPerson">
+									<span>Huma Kant Chaulagain</span>
+								</div>
+								<div class="yellowBox"></div>
 							</div>
 						</div>
-						<div
-							class="col-md-4 offset-md-2 humanRights_column position-relative"
-						>
-							<div class="persons pfive">
-								<h3>Former chairperson <br />CEC[2018-2021]</h3>
-								<img src="./images/person.png" alt="Persons" />
+						<div class="col-md-4 col-12">
+							<div class="humanRights_column">
+								<div class="persons">
+									<h3>Former chairperson</h3>
+									<img src="./images/person.png" alt="Persons" />
+								</div>
+								<div class="persons_name">
+									<span>Huma Kant Chaulagain</span>
+								</div>
 							</div>
-							<div class="persons_name">
-								<span>Huma Kant Chaulagain</span>
+						</div>
+						<div class="col-md-4 col-12">
+							<div class="humanRights_column">
+								<div class="persons">
+									<h3>Former chairperson <br />CEC[2018-2021]</h3>
+									<img src="./images/person.png" alt="Persons" />
+								</div>
+								<div class="persons_name">
+									<span>Huma Kant Chaulagain</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12">
+							<div class="humanRights_column">
+								<div class="persons">
+									<h3>Former chairperson <br />CEC[2018-2021]</h3>
+									<img src="./images/person.png" alt="Persons" />
+								</div>
+								<div class="persons_name">
+									<span>Huma Kant Chaulagain</span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -412,7 +631,7 @@
 		<section class="events_glances">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 uEvents">
+					<div class="col-lg-6 col-md-12 uEvents">
 						<div class="events_contents">
 							<h3>Upcoming Events</h3>
 							<div class="slideEvents events_slider">
@@ -479,7 +698,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-5 offset-md-1 hGlances position-relative">
+					<div
+						class="col-lg-5 offset-lg-1 col-md-12 hGlances position-relative"
+					>
 						<div class="glances_contents">
 							<h3>Hurpes Glances</h3>
 							<div class="glances_texts">
@@ -504,7 +725,7 @@
 		<section class="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-12">
 						<div class="quickContact">
 							<h5>Quick Contact</h5>
 							<ul>
@@ -523,7 +744,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-6 offset-md-1">
+					<div class="col-lg-6 offset-lg-1 col-md-12">
 						<div class="latestPrograms">
 							<h5>Latest Programs</h5>
 							<ul>
@@ -542,7 +763,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-1">
+					<div class="col-lg-1 col-md-12">
 						<div class="footer_socialMedia">
 							<ul>
 								<li>
@@ -567,7 +788,7 @@
 			</div>
 		</section>
 
-		<section style="display: flex; flex-direction: column">
+		<!-- <section style="display: flex; flex-direction: column">
 			<a href="/CampaignOther.html">Campaign Other</a>
 			<a href="/LiteraryAward.html">Literary Award</a>
 			<a href="/ServiceAwards.html">Social Service Award</a>
@@ -586,9 +807,13 @@
 			<a href="/District.html">District Committees Members</a>
 			<a href="/LifeMembers.html">Hurpes Life Members</a>
 			<a href="/Policy.html">Hurpes Policy</a>
-		</section>
-
-		<script src="js/bootstrap.min.js"></script>
+		</section> -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<!-- <script src="js/bootstrap.min.js"></script> -->
 
 		<script
 			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
