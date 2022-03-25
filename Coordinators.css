@@ -12,3 +12,18 @@
 	left: 20%;
 	top: 40%;
 }
+
+@media screen and (max-width: 820px) {
+	.bannerTitle p {
+		font-size: 50px;
+		line-height: 73px;
+		top: 15%;
+	}
+}
+@media screen and (max-width: 390px) {
+	.bannerTitle p {
+		font-size: 20px;
+		line-height: normal;
+		top: 31%;
+	}
+}

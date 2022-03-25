@@ -737,7 +737,7 @@ p.hoverDetails {
 /* -----------Footer------------ */
 
 .footer {
-	position: relative;
+	/* position: relative; */
 	background-color: #414040;
 
 	padding: 61px 0 18px;
@@ -1065,5 +1065,17 @@ p.hoverDetails {
 	.slide_One {
 		display: flex;
 		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.yellowBox {
+		width: 328px;
+		height: 371px;
+		background: #f2cb04;
+		position: absolute;
+		top: 122px;
+		left: 20px;
+		z-index: -1;
 	}
 }

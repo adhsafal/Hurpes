@@ -74,3 +74,33 @@
 .executiveRowOne {
 	margin-bottom: 125px;
 }
+
+@media screen and (max-width: 820px) {
+	.executiveTop h2 {
+		padding: 0;
+	}
+	.bannerTitle p {
+		font-size: 37px;
+		line-height: 57px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.bannerTitle p {
+		font-size: 18px;
+		line-height: 34px;
+		top: 10%;
+	}
+	.executiveTop h2 {
+		font-size: 15px;
+		line-height: 29px;
+	}
+	.mainContents h5 {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.mainContents p {
+		font-size: 13px;
+		line-height: 25px;
+	}
+}

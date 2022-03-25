@@ -1,6 +1,7 @@
 .introductionGradient {
 	position: absolute;
 	top: 0;
+	left: 0;
 }
 
 .bannerTitle p {
@@ -50,4 +51,33 @@
 
 	color: #000000;
 	margin-bottom: 0;
+}
+
+@media screen and (max-width: 820px) {
+	.introductionContainer {
+		padding: 0 50px !important;
+	}
+	.bannerTitle p {
+		top: 20%;
+		left: 20%;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.introductionContainer {
+		padding: 0 15px !important;
+	}
+	.bannerTitle p {
+		font-size: 19px;
+		top: 0;
+		left: 15%;
+	}
+	.introductionContents h4 {
+		font-size: 17px;
+		line-height: 185.99%;
+	}
+	.introductionContents p {
+		font-size: 15px;
+		line-height: 175.99%;
+	}
 }

@@ -52,6 +52,30 @@ $('.campaign_slider').slick({
     arrows: true,
     prevArrow: '<i class="fa-solid fa-angle-left forward_arrow"></i>',
     nextArrow: '<i class = "fa-solid fa-angle-right backward_arrow"></i>',
+
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: false,
+                arrows: false
+            }
+        },
+
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false,
+                arrows: false
+
+            }
+        },
+
+    ]
 });
 
 

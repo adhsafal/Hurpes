@@ -43,3 +43,27 @@
 
 	color: #000000;
 }
+
+@media screen and (max-width: 820px) {
+	.transparencyContainer {
+		padding: 0 15px !important;
+	}
+	.bannerText p {
+		left: 25%;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.bannerText p {
+		left: 24%;
+		top: 50%;
+		font-size: 25px;
+	}
+	.transparencyContents h4 {
+		font-size: 16px;
+	}
+
+	.transparencyContents p {
+		font-size: 13px;
+	}
+}

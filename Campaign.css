@@ -2,9 +2,18 @@
 	position: relative;
 }
 
+.campaignBanner img {
+	width: 100%;
+}
+
+.campaignBanner img.gradient {
+	width: 100%;
+}
+
 .gradient {
 	position: absolute;
 	top: 0;
+	left: 0;
 }
 
 .campaignBanner h1 {
@@ -115,4 +124,20 @@
 .seeAll a {
 	text-decoration: none;
 	color: #000000;
+}
+
+@media screen and (max-width: 820px) {
+	.campaignBanner h1 {
+		font-size: 46px;
+		top: 67px;
+		left: 110px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.campaignBanner h1 {
+		font-size: 34px;
+		top: 9px;
+		left: 32px;
+	}
 }

@@ -24,16 +24,17 @@
 	top: 86%;
 }
 
-.bookrowOne {
-	margin-bottom: 88px;
-}
-
 .bookContainer {
 	padding: 0 150px !important;
 }
 
 .bookcol {
 	text-align: center;
+	margin-bottom: 40px;
+}
+
+.bookcol img {
+	width: 100%;
 }
 
 .Books {
@@ -53,4 +54,23 @@ p.author {
 	color: #d96704;
 	margin-top: 4px;
 	margin-bottom: 0;
+}
+
+@media screen and (max-width: 820px) {
+	.bannerLabel {
+		left: 32.5%;
+		top: 80%;
+	}
+
+	.bookContainer {
+		padding: 0 15px !important;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.bannerLabel {
+		left: 14.5% !important;
+		top: 65%;
+		padding: 13px 25px;
+	}
 }

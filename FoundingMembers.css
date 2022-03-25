@@ -4,8 +4,15 @@
 .committeeGradient {
 	position: absolute;
 	bottom: 0;
+	left: 0;
+}
+.campaignBanner img {
+	width: 100%;
 }
 
+img.committeeGradient {
+	width: 100%;
+}
 .founding {
 	padding: 74px 0;
 }
@@ -131,4 +138,15 @@ h2.designation {
 	position: absolute;
 	right: -19px !important;
 	bottom: -19px !important;
+}
+
+@media screen and (max-width: 820px) {
+	.foundingTop p {
+		padding: 0 50px;
+	}
+
+	/* .founders {
+		padding: 0 15px !important;
+		text-align: center;
+	} */
 }

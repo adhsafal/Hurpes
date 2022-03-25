@@ -1,3 +1,7 @@
+.pressWrapper .topBanner img {
+	width: 100%;
+}
+
 .pressContent {
 	padding: 84px 0 111px;
 }
@@ -36,4 +40,14 @@ span.newsReporter {
 	color: #000000;
 	margin-top: 40px;
 	margin-bottom: 0;
+}
+
+@media screen and (max-width: 390px) {
+	.pressContent {
+		padding: 60px 0 75px;
+	}
+
+	.pressTexts {
+		padding: 10px !important;
+	}
 }

@@ -1,6 +1,7 @@
 .committeeGradient {
 	position: absolute;
 	bottom: 0;
+	left: 0;
 }
 .bannerName p {
 	font-family: "Inter";
@@ -28,10 +29,19 @@
 }
 
 .pastOne {
-	margin-bottom: 52px;
+	text-align: center;
 }
 
 .past {
-	/* width: fit-content !important; */
-	/* padding: 0 !important; */
+	margin-bottom: 20px;
+}
+
+.past img {
+	width: 100%;
+}
+
+@media screen and (max-width: 820px) {
+	.committeeContainer {
+		padding: 0 15px !important;
+	}
 }

@@ -82,3 +82,32 @@
 .policyTwo {
 	margin: 50px 0;
 }
+
+@media screen and (max-width: 820px) {
+	.policyContainer {
+		padding: 0 50px !important;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.topsection .bannerLabel p {
+		font-size: 17px;
+	}
+	.topsection .bannerLabel {
+		bottom: -16%;
+		left: 25%;
+	}
+
+	.policyContainer {
+		padding: 0 10px !important;
+	}
+
+	.policies p {
+		font-size: 18px;
+		margin-left: 25px;
+	}
+	.policies ul li {
+		font-size: 16px;
+		line-height: 30px;
+	}
+}

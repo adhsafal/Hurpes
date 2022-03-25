@@ -65,3 +65,44 @@ span.newsPortals {
 div.seeAll {
 	margin-top: 33px;
 }
+
+@media screen and (max-width: 820px) {
+	.bannerLabel {
+		left: 25.5%;
+		top: 80%;
+	}
+
+	.researchContainer {
+		padding: 0 15px !important;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.bannerLabel {
+		left: 14.5% !important;
+		top: 77%;
+		padding: 6px 14px;
+	}
+	.bannerLabel p {
+		font-size: 21px;
+	}
+	.researches {
+		padding: 100px 0 50px;
+	}
+
+	.aboutResearches h3 {
+		font-size: 17px;
+	}
+
+	span.researchAuthor {
+		font-size: 12px;
+	}
+
+	p.researchDetails {
+		font-size: 14px;
+	}
+	span.newsPortals {
+		font-size: 8px;
+		padding: 10px 5px;
+	}
+}
