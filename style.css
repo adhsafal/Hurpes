@@ -245,23 +245,15 @@ header {
 -----------Banner Section---------
 ---------------------------------- */
 
-.banner {
-	/* height: 100 !important; */
-}
-
 .banner_slider img {
 	width: 100%;
-}
-
-.slide_overlay {
-	position: absolute;
-	height: 100%;
-	width: 100%;
+	/* height: auto; */
 }
 
 img.mainGradient {
 	position: absolute;
 	top: 0;
+	opacity: 0.3;
 }
 
 .slide_texts {

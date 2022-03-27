@@ -17,10 +17,6 @@ img.committeeGradient {
 	padding: 74px 0;
 }
 
-.foundingContainer {
-	padding: 0 !important;
-}
-
 .foundingTop {
 	text-align: center;
 }
@@ -185,7 +181,7 @@ h2.designation {
 @media screen and (max-width: 390px) {
 	.founderYellow,
 	.secondYellow {
-		left: 18%;
+		left: 15%;
 	}
 	.aboutFounder p {
 		font-size: 15px;
