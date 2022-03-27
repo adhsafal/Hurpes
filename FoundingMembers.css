@@ -176,6 +176,10 @@ h2.designation {
 	.aboutFounder {
 		text-align: left;
 	}
+
+	.ordering {
+		order: 2;
+	}
 }
 
 @media screen and (max-width: 390px) {
