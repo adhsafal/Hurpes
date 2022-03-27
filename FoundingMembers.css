@@ -83,6 +83,10 @@ h2.designation {
 	z-index: 1;
 }
 
+.aboutFounder {
+	margin-top: 50px;
+}
+
 .aboutFounder h3 {
 	font-family: "Inter";
 	font-style: normal;
@@ -121,16 +125,17 @@ h2.designation {
 }
 
 .founders {
-	padding: 43px 300px 81px 168px !important;
+	padding: 43px 150px 168px !important;
 	background: #f0f6f2;
+	display: flex;
 }
 
 .foundersTwo {
-	padding: 43px 168px 81px 300px !important;
 	text-align: right;
+	background-color: white;
 }
 
-.foundersTwo .founderMedia ul {
+.founderMedia ul {
 	justify-content: flex-end;
 }
 
@@ -144,9 +149,44 @@ h2.designation {
 	.foundingTop p {
 		padding: 0 50px;
 	}
-
-	/* .founders {
-		padding: 0 15px !important;
+	.founders {
+		display: flex;
+		flex-direction: column;
+		padding: 43px 15px 168px !important;
+	}
+	.founderImage {
 		text-align: center;
-	} */
+	}
+	.founderYellow {
+		left: 35%;
+	}
+	.secondYellow {
+		left: 34.5%;
+	}
+	h2.designation {
+		text-align: center;
+	}
+	.aboutFounder h3 {
+		margin-top: 30px;
+	}
+	.founderMedia ul {
+		justify-content: flex-start;
+	}
+
+	.aboutFounder {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.founderYellow,
+	.secondYellow {
+		left: 18%;
+	}
+	.aboutFounder p {
+		font-size: 15px;
+	}
+	.bannerName p {
+		top: 70%;
+	}
 }

@@ -100,4 +100,33 @@
 }
 
 #map {
+	width: 100%;
+}
+
+@media screen and (max-width: 820px) {
+	.contactContainer {
+		padding: 0 50px !important;
+	}
+
+	.contactForm {
+		margin-bottom: 50px;
+	}
+
+	.contactCol {
+		padding: 0 !important;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.contactContainer {
+		padding: 0 15px !important;
+	}
+	.bannerLabel p {
+		font-size: 16px;
+	}
+	.bannerLabel {
+		left: 29.5% !important;
+		top: 81%;
+		padding: 5px 20px;
+	}
 }
