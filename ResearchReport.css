@@ -75,6 +75,9 @@ div.seeAll {
 	.researchContainer {
 		padding: 0 15px !important;
 	}
+	.aboutResearches {
+		margin-top: 15px;
+	}
 }
 
 @media screen and (max-width: 390px) {
