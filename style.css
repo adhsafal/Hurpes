@@ -186,9 +186,6 @@ header {
 	position: relative;
 }
 
-.dropdown-menu {
-}
-
 .dropdown-menu.award {
 	left: -120px !important;
 }
@@ -836,7 +833,7 @@ p.hoverDetails {
 	display: flex;
 	padding: 0;
 	margin: 0;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 .canvas_socialMedia ul li {
@@ -845,11 +842,12 @@ p.hoverDetails {
 }
 
 .offcanvas {
-	background-color: #dfffcb !important;
+	background-color: #414040 !important;
+	color: rgb(241, 241, 241);
 }
 
 .offcanvas-body .navbar_innerSection ul li.dropdown .dropdown-menu a {
-	background: black;
+	/* background: black; */
 	box-shadow: none;
 }
 
@@ -867,10 +865,11 @@ p.hoverDetails {
 }
 .navbar_innerSection ul li a {
 	transition: all ease 0.5s;
+	color: rgb(241, 241, 241);
 }
 
 .navbar_innerSection ul li a:hover {
-	color: black;
+	color: #000;
 	font-weight: 700;
 	transition: all ease 0.5s;
 }
