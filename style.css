@@ -865,13 +865,17 @@ p.hoverDetails {
 }
 .navbar_innerSection ul li a {
 	transition: all ease 0.5s;
-	color: rgb(241, 241, 241);
+	/* color: rgb(241, 241, 241); */
 }
 
 .navbar_innerSection ul li a:hover {
 	color: #000;
 	font-weight: 700;
 	transition: all ease 0.5s;
+}
+
+.canvas .navbar_innerSection ul li a {
+	color: rgb(241, 241, 241) !important;
 }
 
 @media screen and (max-width: 1199px) {
